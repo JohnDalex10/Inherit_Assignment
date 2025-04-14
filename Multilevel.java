@@ -1,18 +1,18 @@
-// Animal class
+// Parent class
 class Animal {
     void sleep() {
         System.out.println("Sleeping");
     }
 }
 
-// Parent class
+// Cat class
 class Cat extends Animal {
     void eat() {
         System.out.println("Eating");
     }
 }
 
-// Child class
+// Lion class
 class Lion extends Cat {
     void run() {
         System.out.println("Running");
